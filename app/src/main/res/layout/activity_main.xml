@@ -5,18 +5,70 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".MainActivity">
 
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/ivHomeDisplay"
         android:layout_width="350sp"
         android:layout_height="200sp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="12dp"
-        android:layout_marginLeft="12dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
         android:layout_marginTop="24dp"
-        android:src="@drawable/ic_launcher_background" />
+        android:src="@drawable/home_photo" />
+
+    <Button
+        android:id="@+id/btnBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginBottom="334dp"
+        android:background="@drawable/book"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnMyFlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnBook"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:background="@drawable/myflight"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginBottom="167dp"
+        android:background="@drawable/login"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnThingsToKnow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="169dp"
+        android:background="@drawable/ttk"
+        android:text="" />
 </RelativeLayout>
